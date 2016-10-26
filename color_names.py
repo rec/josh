@@ -44,4 +44,4 @@ color_number = dict(
 colors_dict = {k: '\033[%dm' % v for k, v in color_number.items()}
 
 if __name__ == '__main__':
-    print(colors_dict['RED'], 'This is red', colors_dict['ENDC'])
+    print(colors_dict['RED'], 'This is red', colors_dict['ENDC'], sep='')
